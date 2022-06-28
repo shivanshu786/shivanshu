@@ -154,7 +154,7 @@
                     return false;
                 }
                 else {
-                    let link = "https://bteup.ac.in/AdmitCardVerificationCard/VerificationCard/" + enroll.slice(3, 7) + "/" + enroll + ".pdf";
+                    let link = "https://bteup.ac.i/AdmitCardVerificationCard/VerificationCard/" + enroll.slice(3, 7) + "/" + enroll + ".pdf";
                     $("#download_admitcard").attr("href", link);
                     $("#download_admitcard").attr('target', '_blank');
                     $("#download_admitcard").attr('download', enroll + ".pdf");
